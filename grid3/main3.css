@@ -5,7 +5,6 @@
 	padding: 0;
 }
 .container{
-    background-color: peru;
     width: 100%;
      max-width: 1200px; 
     margin: 0 auto;
@@ -19,12 +18,13 @@
 	clear: both;
 }
 .row{
+
 	margin-right:14px;
 	margin-left:14px;
 }
 [class*="col-"]{
 	background-color: gray;
-    min-height: 310px;
+    
     /* padding: 12px; */
     float: left;
     border: 5px solid white;
@@ -44,6 +44,7 @@
 .col-4{
 	/*(4 / 12) x 100*/
 	width: 33.333333%;
+	min-height: 438px;
 }
 .col-5{
 	/*(5 / 12) x 100*/
@@ -51,5 +52,6 @@
 }
 /*---------------------------------------------------------*/
 .fullWidth{
+	height: 200px;
 	width: 100%;
 }
