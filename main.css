@@ -9,8 +9,14 @@ html{
 header{
     padding: 50px 0;
     width: 100%;
-    background-color: green;
+    background-color: #ab5270;
     text-align: center;
+}
+header h1{
+    font-family: 'Playfair Display', serif;
+}
+header h2{
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 section{
     /* overflow: auto; */
@@ -26,6 +32,10 @@ section{
 .row:after{
 	clear: both;
 }
+.row{
+    display: flex;
+    justify-content: center;
+}
 
 [class*="grid-"]{
     min-height: 132px;
@@ -33,7 +43,6 @@ section{
     box-shadow: 0px 0px 7px grey;
     width: 23.333333%;
     margin: 5px;
-    /* background-size: contain; */
     background-repeat: no-repeat;
 }
 
@@ -45,6 +54,14 @@ div.grid-2{
 }
 div.grid-3{
 	background-image: url(img/grid3.png);
+}
+a{
+    text-decoration: none;
+    background-color: #ab5270;
+    border-radius: 50%;
+    color: black;
+    padding: 4px;
+    font-size: 11px;
 }
 
 
